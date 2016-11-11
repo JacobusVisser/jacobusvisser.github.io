@@ -3,3 +3,18 @@
 	width: 100%;
 	height: 100px;
 }
+
+.navbtn {
+	background-color: red;
+	height: 50px;
+	width: 10%;
+	margin: 0px 5% 0px 5%;
+}
+
+.two {
+	margin-right: 15%;
+}
+
+.three {
+	margin-left: 15%;
+}
