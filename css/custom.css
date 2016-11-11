@@ -1,23 +1,19 @@
 .nav {
-	background-color: grey;
+	background-color: white;
 	width: 100%;
 	height: 100px;
 	padding-top: 25px;
+	border-bottom: 5px solid red;
 }
 
 .navbtn {
 	background-color: red;
 	height: 50px;
 	width: 10%;
-	margin: 0px 5% 0px 5%;
-}
-
-.two {
-	margin-right: 15%;
-}
-
-.three {
-	margin-left: 15%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: calc( (30% - 75px) / 3 );
+	margin-bottom: 0px;
 }
 
 #sqaure {
@@ -40,4 +36,8 @@
 	position: fixed;
 	left: 50%;
 	margin-left: -75px;
+}
+
+.two {
+	margin-right: 300px;
 }
