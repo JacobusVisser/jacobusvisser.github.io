@@ -18,3 +18,25 @@
 .three {
 	margin-left: 15%;
 }
+
+#sqaure {
+	background-color: red;
+	width: 150px;
+	height: 100px;
+	top: 0px;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 100px solid red;
+	top: 100px;
+}
+
+#sqaure, #triangle {
+	position: fixed;
+	left: 50%;
+	margin-left: -75px;
+}
