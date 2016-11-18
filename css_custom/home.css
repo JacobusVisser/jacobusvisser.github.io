@@ -1,0 +1,28 @@
+body {
+	margin: 0px;
+}
+
+.background {
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 3.5em;
+	color: white;
+	margin: 0px 0px 0px 100px;
+}
+
+h1.one {
+	margin-top: 200px;
+}
+
+h1.two {
+	margin-left: 390px;
+}

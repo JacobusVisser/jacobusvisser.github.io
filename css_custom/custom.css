@@ -2,6 +2,10 @@ body {
 	margin: 0px;
 }
 
+img {
+	border: 0;
+}
+
 @media screen and (max-width: 800px) {
     footer {
         display: none;
@@ -47,6 +51,7 @@ nav a {
 	background-color: lightskyblue;
 	width: 150px;
 	height: 150px;
+	display: block;
 }
 
 #triangle {
@@ -73,6 +78,11 @@ nav a {
 	text-align: center;
 	width: 200px;
 	display: block;
+	transition: width .3s ease-in;
+}
+
+.button:hover {
+	font-family: helvetica, sans-serif;
 }
 
 div.button.one { left: calc((50% - 475px) * 1/3); }
