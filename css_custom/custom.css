@@ -45,6 +45,7 @@ nav {
 nav a {
 	color: black;
 	text-decoration: none;
+	cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
 }
 
 #sqaure {
@@ -79,6 +80,7 @@ nav a {
 	width: 200px;
 	display: block;
 	transition: width .3s ease-in;
+	cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
 }
 
 .button:hover {

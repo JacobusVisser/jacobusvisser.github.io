@@ -52,6 +52,7 @@ h1 {
   	top: 50%;
   	transform: translateY(-50%);
   	width: 100%;
+  	font-weight: 100;
 }
 
 .para {
@@ -87,6 +88,36 @@ h1 {
   	transform: translateY(-50%);
   	margin: auto 100px;
 }
+
+h2 {
+	font-size: 3.25em;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nottarp {
+	font-family: 'Helvetica Neue UltraLight';
+	font-weight: 100;
+}
+
+.tarp {
+	font-family: helvetica, sans-serif;
+	color: lightskyblue;
+}
+
+
+@media only screen and (max-width : 900px) {
+  .half {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
 
 
 
