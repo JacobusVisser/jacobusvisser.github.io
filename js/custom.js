@@ -1,5 +1,9 @@
-$( document ).ready(function() {
- 
-    // Your code here.
- 
+/*
+
+$(document).ready(function(){
+    $(".model").hover(function(){
+        $(this).hide();
+        }, function(){
+        $(this).show();
+    });
 });

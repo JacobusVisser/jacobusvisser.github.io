@@ -3,10 +3,6 @@ body {
 	font-family: helvetica, sans-serif;
 }
 
-.pic {
-	background-color: lightgrey;
-}
-
 .info {
 	background-color: white;
 }
@@ -106,17 +102,21 @@ h2 {
 }
 
 
-@media only screen and (max-width : 900px) {
+	@media only screen and (max-width : 900px) {
   .half {
     width: 100%;
   }
 }
 
+.pro-model-left {
+	position: absolute;
+	right: 0px;
+}
 
-
-
-
-
+.model {
+	width: 550px;
+	height: 550px;
+}
 
 
 
