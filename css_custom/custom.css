@@ -121,12 +121,6 @@ footer {
 	bottom: 0px;
 	left: 0px;
 	background-color: white;
-	line-height: 100px;
-}
-
-footer img {
-	height: 40px;
-	vertical-align: middle;
 }
 
 div.icon {
@@ -140,6 +134,20 @@ div.icon.two { left: calc((100% * 2/6) - 75px); }
 div.icon.three { left: calc(50% - 75px); }
 div.icon.four { right: calc((100% * 2/6) - 75px); }
 div.icon.five { right: calc((100% * 1/6) - 75px); }
+
+.nottarp2 {
+	font-family: 'Helvetica Neue UltraLight';
+	font-weight: 100;
+	font-size: 3em;
+	margin-top: 23px; 
+}
+
+.tarp2 {
+	font-family: helvetica, sans-serif;
+	color: lightskyblue;
+	font-size: 3em;
+	margin-top: 22.5px;
+}
 
 
 

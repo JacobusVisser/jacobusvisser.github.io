@@ -13,16 +13,8 @@ body {
 
 
 h1 {
-	font-family: Helvetica, sans-serif;
-	font-size: 3.5em;
+	font-family: 'Helvetica Neue UltraLight', sans-serif;
+	font-size: 8em;
 	color: white;
-	margin: 0px 0px 0px 100px;
-}
-
-h1.one {
-	margin-top: 200px;
-}
-
-h1.two {
-	margin-left: 390px;
+	margin: 180px 0px 0px 100px;
 }

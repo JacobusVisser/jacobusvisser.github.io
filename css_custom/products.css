@@ -5,6 +5,7 @@ body {
 
 .info {
 	background-color: white;
+	max-width: 550px;
 }
 
 main {
@@ -19,7 +20,6 @@ footer {
   color: lightskyblue;
   border: 2px lightskyblue solid;
   margin: 0px;
-  border-radius: 5px;
   text-decoration: none;
   padding: 10px;
   font-size: 22px;
@@ -66,6 +66,9 @@ h1 {
 .clear {
 	clear: both;
 }
+
+.half.info.left { margin-left: calc(50% - 550px) }
+.half.info.right { margin-right: calc(50% - 550px) }
 
 #special {
 	text-align: center;
@@ -132,7 +135,7 @@ h2 {
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
   position: absolute;
   top: 50%;
   width: auto;
@@ -157,7 +160,7 @@ h2 {
 .dot-third,
 .dot-fourth,
 .dot-fith {
-  cursor: pointer;
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
   height: 13px;
   width: 13px;
   margin: 0 2px;
@@ -187,10 +190,28 @@ h2 {
 .dot-wrap-left { right: 0px; }
 .dot-wrap-right { left: 0px; }
 
-.bar {
-	width: 100%;
-	color: transparent;
-	height: 10px;
-	margin: 0px;
+.img-white { display: none; }
+.img-blue { display: inline; }
+
+/*					*/
+
+.blue {
+	background-color: lightskyblue;
+	width: 50px;
+	height: 50px;
+	float: left;
+	}
+
+.white {
+	background-color: white;
+	border: 3px solid lightgrey;
+	width: 44px;
+	height: 44px;
+	margin: 0px 0px 30px 75px;
+	}
+
+.clr-btn {
+	cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
 }
+
 

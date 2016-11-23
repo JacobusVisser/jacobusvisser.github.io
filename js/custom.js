@@ -140,3 +140,68 @@ function showSlidesFith(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+
+
+
+
+$( document ).ready(function() {
+ 
+    $(".blue.m-first").click(function() {
+      $(".img-blue.m-first").css("display" , "inline");
+      $(".img-white.m-first").css("display" , "none");
+    })
+
+    $(".white.m-first").click(function() {
+      $(".img-blue.m-first").css("display" , "none");
+      $(".img-white.m-first").css("display" , "inline");
+    })
+
+    $(".blue.m-second").click(function() {
+      $(".img-blue.m-second").css("display" , "inline");
+      $(".img-white.m-second").css("display" , "none");
+    })
+
+    $(".white.m-second").click(function() {
+      $(".img-blue.m-second").css("display" , "none");
+      $(".img-white.m-second").css("display" , "inline");
+    })
+
+    $(".blue.m-third").click(function() {
+      $(".img-blue.m-third").css("display" , "inline");
+      $(".img-white.m-third").css("display" , "none");
+    })
+
+    $(".white.m-third").click(function() {
+      $(".img-blue.m-third").css("display" , "none");
+      $(".img-white.m-third").css("display" , "inline");
+    })
+
+    $(".blue.m-fourth").click(function() {
+      $(".img-blue.m-fourth").css("display" , "inline");
+      $(".img-white.m-fourth").css("display" , "none");
+    })
+
+    $(".white.m-fourth").click(function() {
+      $(".img-blue.m-fourth").css("display" , "none");
+      $(".img-white.m-fourth").css("display" , "inline");
+    })
+
+    $(".blue.m-fith").click(function() {
+      $(".img-blue.m-fith").css("display" , "inline");
+      $(".img-white.m-fith").css("display" , "none");
+    })
+
+    $(".white.m-fith").click(function() {
+      $(".img-blue.m-fith").css("display" , "none");
+      $(".img-white.m-fith").css("display" , "inline");
+    })
+ 
+});
+
+
+
+
+
+
+
