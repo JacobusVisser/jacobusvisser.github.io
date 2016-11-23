@@ -1,12 +1,13 @@
 body {
 	margin: 0px;
+	font-family: helvetica, sans-serif;
 }
 
 img {
 	border: 0;
 }
 
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     footer {
         display: none;
     }
@@ -16,7 +17,7 @@ img {
     h1 {
         display: none;
     }
-}
+}*/
 
 @font-face {
           font-family: 'Helvetica Neue UltraLight';

@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <title>TarpClothes</title>
-    <link rel="stylesheet" href="css_custom/swipebox.css">
     <link rel="stylesheet" type="text/css" href="css_custom/custom.css">
-    <link rel="stylesheet" type="text/css" href="css_custom/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css_custom/contact.css">
   </head>
   <body>
 
@@ -33,38 +32,39 @@
 
     <main>
 
-      <div id="wrap">
-        <a href="img/g2.png" class="swipebox"><img src="img/g2.png" alt="image" class="box"></a>
-        <a href="img/g7.png" class="swipebox"><img src="img/g7.png" alt="image" class="box"></a>
-        <a href="img/g10.png" class="swipebox"><img src="img/g10.png" alt="image" class="box"></a>
-        <a href="img/g1.png" class="swipebox"><img src="img/g1.png" alt="image" class="box"></a>
-        <a href="img/g5.png" class="swipebox"><img src="img/g5.png" alt="image" class="box"></a>
-        <a href="img/g3.png" class="swipebox"><img src="img/g3.png" alt="image" class="box"></a>
-        <a href="img/g8.png" class="swipebox"><img src="img/g8.png" alt="image" class="box"></a>
-        <a href="img/g9.png" class="swipebox"><img src="img/g9.png" alt="image" class="box"></a>
-        <a href="img/g6.png" class="swipebox"><img src="img/g6.png" alt="image" class="box bottom"></a>
+      <div class="background">
+        <img id="bg" src="img/c1.png" alt="background">
+        <h1>Contact Us</h1>
       </div>
+
+      <form>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name" />
+        </div>
+        <div>
+          <label for="mail">E-mail</label>
+          <input type="email" id="mail" name="user_mail" />
+        </div>
+        <div>
+          <label for="msg">Message</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+
+        <div class="form-btn">
+          <button>Send your message</button>
+          </div>  
+      </form>
 
     </main>
 
     <footer>
-
       <div class="icon one"><h5><span class="nottarp2">shir</span><span class="tarp2">tarp</span></h5></div>
       <div class="icon two"><h5><span class="nottarp2">skir</span><span class="tarp2">tarp</span></h5></div>
       <div class="icon three"><h5><span class="tarp2">tarp</span><span class="nottarp2">urse</span></h5></div>
       <div class="icon four"><h5><span class="nottarp2">jacke</span><span class="tarp2">tarp</span></h5></div>
       <div class="icon five"><h5><span class="tarp2">tarp</span><span class="nottarp2">ants</span></h5></div>
     </footer>
-
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery.swipebox.js"></script>
-    <script type="text/javascript">
-      ;( function( $ ) {
-
-      $( '.swipebox' ).swipebox();
-
-      } )( jQuery );
-    </script>
 
   </body>
 </html>

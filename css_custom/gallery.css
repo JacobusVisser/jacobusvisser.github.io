@@ -1,8 +1,3 @@
-body {
-	margin: 0px;
-}
-
-
 #wrap {
   overflow: hidden;
   margin: 200px auto 0px auto;
@@ -14,7 +9,7 @@ body {
   width: 270px;
   position: relative;
   float: left;
-  display: block;
+  display: inline;
   background-color: lightskyblue;
   margin: 50px 0px 50px 0px;
   margin-left: calc((100% - 810px) / 6);
@@ -57,4 +52,9 @@ body {
 nav {
 	border-bottom: 2px solid grey;
 	height: 148px;
+}
+
+footer {
+	border-top: 2px solid grey;
+	height: 98px;
 }
