@@ -149,6 +149,9 @@ div.icon.five { right: calc((100% * 1/6) - 75px); }
 	margin-top: 22.5px;
 }
 
+img {
+	background-color: lightskyblue;
+}
 
 
 
