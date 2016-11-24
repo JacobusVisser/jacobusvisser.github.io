@@ -1,16 +1,6 @@
-.background {
-	position: absolute; 
-	top: 150px; 
-	left: 0; 
-	width: 100%;
-	height: 250px;
-	z-index: -1;
-	overflow: hidden;
-}
-
-#bg {
-	margin: none;
-	width: 100%;
+nav {
+	border-bottom: 2px solid grey;
+	height: 148px;
 }
 
 h1 {
@@ -35,12 +25,8 @@ footer {
 
 form {
 	width: 420px;
-	padding: 1em;
-	border: 1px solid #CCC;
-	border-radius: 1em;
 	position: absolute;
-	top: 450px;
-	left: 100px;
+	left: 620px;
 	margin-bottom: 200px;
 }
 
@@ -97,6 +83,36 @@ form button {
 form button:hover {
   color: #fff;
   background-color: lightskyblue;
+}
+
+.info {
+	width: 420px;
+	height: 209px;
+	position: absolute;
+	left: 100px;
+	margin-bottom: 200px;
+}
+
+.icon {
+	width: calc(100% / 5);
+	display: inline;
+	margin: -2px;
+}
+
+#bottom {
+	margin: 250px 0px 0px 0px;
+}
+
+.line {
+	margin-top: 98px;
+	border-top: 2px solid lightskyblue;
+	padding: 100px 0px 0px 0px;
+}
+
+h4 {
+	font-family: 'Helvetica Neue UltraLight';
+	margin: 0px 0px 25px 100px;
+	font-size: 25px;
 }
 
 
