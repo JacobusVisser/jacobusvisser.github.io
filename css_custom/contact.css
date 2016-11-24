@@ -73,8 +73,8 @@ form button {
 }
 
 form button:hover {
-  color: #fff;
-  background-color: lightskyblue;
+	color: #fff;
+	background-color: lightskyblue;
 }
 
 .info {
@@ -109,30 +109,30 @@ h4 {
 }
 
 ::-webkit-input-placeholder {
-   color: lightskyblue;
-   padding: 0px 0px 0px 25px;
+	color: lightskyblue;
+	padding: 0px 0px 0px 25px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: lightskyblue;
-   padding: 0px 0px 0px 25px;  
+	color: lightskyblue;
+	padding: 0px 0px 0px 25px;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: lightskyblue;
-   padding: 0px 0px 0px 25px;  
+	color: lightskyblue;
+	padding: 0px 0px 0px 25px;  
 }
 
 :-ms-input-placeholder {  
-   color: lightskyblue;
-   padding: 0px 0px 0px 25px; 
+	color: lightskyblue;
+	padding: 0px 0px 0px 25px; 
 }
 
 @media only screen 
-	and (min-device-width: 320px) 
-	and (max-device-width: 480px)
-	and (-webkit-min-device-pixel-ratio: 2)
-	and (orientation: portrait) {
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
 
 	form {
 		left: 25%;
@@ -169,6 +169,25 @@ h4 {
 		margin: 0px;
 		left: 25%;
 		font-size: 150%;
+	}
+	::-webkit-input-placeholder {
+		padding: 0px;
+		text-align: center
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		padding: 0px;
+		text-align: center  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		padding: 0px;
+		text-align: center  
+	}
+
+	:-ms-input-placeholder {  
+		padding: 0px;
+		text-align: center 
 	}
 
 }
