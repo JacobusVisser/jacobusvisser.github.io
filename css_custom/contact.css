@@ -26,7 +26,7 @@ footer {
 form {
 	width: 420px;
 	position: absolute;
-	left: 620px;
+	right: 150px;
 	margin-bottom: 200px;
 }
 
@@ -36,7 +36,7 @@ form div + div {
 
 input, textarea {
 	font: 1em helvetica, arial, sans-serif;
-	width: 300px;
+	width: 420px;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 1px solid #999;
@@ -53,7 +53,7 @@ textarea {
 }
 
 .form-btn {
-	padding-left: 114px;
+	padding-left: 0px;
 }
 
 form button {
@@ -81,7 +81,7 @@ form button:hover {
 	width: 420px;
 	height: 209px;
 	position: absolute;
-	left: 100px;
+	left: 150px;
 	margin-bottom: 200px;
 }
 
@@ -103,29 +103,29 @@ form button:hover {
 
 h4 {
 	font-family: 'Helvetica Neue UltraLight';
-	margin: 0px 0px 25px 100px;
+	margin: 0px 0px 25px 150px;
 	font-size: 25px;
 	width: 420px;
 }
 
 ::-webkit-input-placeholder {
    color: lightskyblue;
-   padding: 25px 0px 0px 25px;
+   padding: 0px 0px 0px 25px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: lightskyblue;
-   padding: 25px 0px 0px 25px;  
+   padding: 0px 0px 0px 25px;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: lightskyblue;
-   padding: 25px 0px 0px 25px;  
+   padding: 0px 0px 0px 25px;  
 }
 
 :-ms-input-placeholder {  
    color: lightskyblue;
-   padding: 25px 0px 0px 25px;  
+   padding: 0px 0px 0px 25px; 
 }
 
 @media only screen 
