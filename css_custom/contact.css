@@ -34,14 +34,6 @@ form div + div {
 	margin-top: 1em;
 }
 
-label {
-	display: inline-block;
-	width: 90px;
-	text-align: right;
-	color: lightskyblue;
-	margin-right: 20px;
-}
-
 input, textarea {
 	font: 1em helvetica, arial, sans-serif;
 	width: 300px;
@@ -113,9 +105,73 @@ h4 {
 	font-family: 'Helvetica Neue UltraLight';
 	margin: 0px 0px 25px 100px;
 	font-size: 25px;
+	width: 420px;
 }
 
+::-webkit-input-placeholder {
+   color: lightskyblue;
+   padding: 25px 0px 0px 25px;
+}
 
+:-moz-placeholder { /* Firefox 18- */
+   color: lightskyblue;
+   padding: 25px 0px 0px 25px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: lightskyblue;
+   padding: 25px 0px 0px 25px;  
+}
+
+:-ms-input-placeholder {  
+   color: lightskyblue;
+   padding: 25px 0px 0px 25px;  
+}
+
+@media only screen 
+	and (min-device-width: 320px) 
+	and (max-device-width: 480px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: portrait) {
+
+	form {
+		left: 25%;
+		margin-top: 500px;
+	}
+
+	.info {
+		left: 50%;
+		margin-left: -210px;
+	}
+
+	input, textarea {
+		font-size: 2em;
+		width: 50vw;
+	}
+
+	form button {
+		font-size: 30px;
+		width: 50vw;
+	}
+
+	.form-btn {
+		padding: 0px;
+		margin-top: 50px; 
+	}
+
+	h4 {
+		font-size: 50px;
+		margin-left: 25vw;
+	}
+
+	.info {
+		width: 50vw;
+		margin: 0px;
+		left: 25%;
+		font-size: 150%;
+	}
+
+}
 
 
 
